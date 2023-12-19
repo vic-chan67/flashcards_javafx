@@ -7,8 +7,8 @@ Sets up and displays the JavaFX stage/GUI.
 Creates a card
 ### Attributes
 - int ID
-- char qa
-- String content
+- String question
+- String answer
 - String topic
 - String module
 - int xStudied
@@ -30,4 +30,6 @@ Enum to define difficulty
 ## FlashcardSet
 Main class to display, edit and delete flashcards
 ### Methods
-- 
+- public displayFlashcards
+- public editFlashcards
+- public deleteFlashcards
